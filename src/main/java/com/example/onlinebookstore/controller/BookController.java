@@ -8,6 +8,7 @@ public class BookController {
 
 	@GetMapping("/api/books")
 	public String apiForGetAllBooks() {
+		System.out.println("...");
 		return "All books are here";
 	}
 }
