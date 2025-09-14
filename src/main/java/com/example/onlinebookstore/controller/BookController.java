@@ -8,7 +8,7 @@ public class BookController {
 
 	@GetMapping("/api/books")
 	public String apiForGetAllBooks() {
-		System.out.println("...");
+		System.out.println("api called successfully");
 		return "All books are here";
 	}
 }
